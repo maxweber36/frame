@@ -1,26 +1,24 @@
-
 # html lang
-language: en
+language: zh-CN
 
 # header
-site_brand_name: Frame.
+site_brand_name: 阿犇的自留地
 
 logo_image:
-  enable: false
-  image_path: /logo.png # path to your logo image
+  enable: true
+  image_path: /avatar.jpg # path to your logo image
 
 menu:
-  Home: /
-  Archive: /archives/
-  Gallery: /categories/gallery/
-
+  我的博客: /archives/
+  关于我: /about/
+  我都做了啥: /my-projects/
 # stylesheets loaded in the <head>
 stylesheets:
-- /css/style.css
+  - /css/style.css
 
 # scripts loaded in the end of the body
 scripts:
-- /js/menu.js
+  - /js/menu.js
 
 # favicon
 favicon: /favicon.ico
@@ -29,19 +27,22 @@ date_format: MMM D, YYYY
 
 # profile
 profile:
-  title: Hi, this is Frame. 
-  body: A minimal, elegant hexo theme.
-  image: /profile_cover.png
+  title: 👋，这是阿犇的自留地
+  body: 我是自己最重要的读者，总要找一个地方，为自己留点什么。
+  image: /profile_cover.jpg
 
   links:
-    Home: /
-    Blogs: /archives/
+    博客: /archives/
+    关于: /about/
+    产品: /my-projects/
+    RSS: /atom.xml
+    #Resume: /path/to/your/resume.pdf 关于相对路径的设置。
 
 # footer
 footer:
   copyright_info:
-    enable: false
-    author:
+    enable: true
+    author: ©阿犇
 
   powered_by: # Powered by Hexo & Frame
     enable: true
@@ -62,15 +63,15 @@ valine: # valine setup guide: https://valine.js.org/quickstart.html
   enable: false
   appId: # Your valine app Id
   appKey: # Your valine app Key
-  lang: 'en'
-  placeholder: 'Say something'
-  avatar: 'mp'
-  meta: ['nick', 'mail']
+  lang: "zh-CN"
+  placeholder: "Say something"
+  avatar: "mp"
+  meta: ["nick", "mail"]
 
 disqus: # disqus setup guide: https://help.disqus.com/en/articles/1717056-publisher-quick-start-guide
   enable: false
   disqus_url: # your diqsuq url or shortname
-  language: 'en'
+  language: "zh-CN"
 
 # local search
 local_search:
@@ -80,3 +81,4 @@ local_search:
   top_n_per_article: 1 # show top n results per article, show all results by setting to -1
   unescape: false # unescape html strings to the readable one
   preload: false # reload the search data when the page loads, this will accelerate the search process
+
