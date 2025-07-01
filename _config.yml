@@ -6,7 +6,7 @@ site_brand_name: 阿犇的自留地
 
 logo_image:
   enable: true
-  image_path: /avatar.jpg # path to your logo image
+  image_path: ./images/avatar.png # path to your logo image
 
 menu:
   我的博客: /archives/
@@ -21,7 +21,7 @@ scripts:
   - /js/menu.js
 
 # favicon
-favicon: /favicon.ico
+favicon: ./images/favicon.ico
 
 date_format: MMM D, YYYY
 
@@ -29,7 +29,7 @@ date_format: MMM D, YYYY
 profile:
   title: 👋，这是阿犇的自留地
   body: 我是自己最重要的读者，总要找一个地方，为自己留点什么。
-  image: /profile_cover.jpg
+  image: ./images/profile_cover.jpg
 
   links:
     博客: /archives/
