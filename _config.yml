@@ -27,8 +27,8 @@ date_format: MMM D, YYYY
 
 # profile
 profile:
-  title: 👋，这是阿犇的自留地
-  body: 我是自己最重要的读者，总要找一个地方，为自己留点什么。
+  title: 👋，阿犇的自留地
+  body: 成为多维度的人👨‍💻👨‍🍼📝💻🥾
   image: ./images/profile_cover.jpg
 
   links:
@@ -69,8 +69,8 @@ valine: # valine setup guide: https://valine.js.org/quickstart.html
   meta: ["nick", "mail"]
 
 disqus: # disqus setup guide: https://help.disqus.com/en/articles/1717056-publisher-quick-start-guide
-  enable: false
-  disqus_url: # your diqsuq url or shortname
+  enable: true
+  disqus_url: https://weber36.me/ # your diqsuq url or shortname
   language: "zh-CN"
 
 # local search
