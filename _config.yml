@@ -6,12 +6,14 @@ site_brand_name: 阿犇的自留地
 
 logo_image:
   enable: true
-  image_path: ./images/avatar.png # path to your logo image
+  image_path: /images/avatar.png # path to your logo image
 
 menu:
+  主页: /
   我的博客: /archives/
   关于我: /about/
   我都做了啥: /my-projects/
+
 # stylesheets loaded in the <head>
 stylesheets:
   - /css/style.css
@@ -21,7 +23,7 @@ scripts:
   - /js/menu.js
 
 # favicon
-favicon: ./images/favicon.ico
+favicon: /images/favicon.ico
 
 date_format: MMM D, YYYY
 
@@ -29,20 +31,17 @@ date_format: MMM D, YYYY
 profile:
   title: 👋，阿犇的自留地
   body: 成为多维度的人👨‍💻👷🤹🧙‍♀️👨‍🍼
-  image: ./images/profile_cover.jpg
+  image: /images/profile_cover.jpg
 
   links:
-    博客: /archives/
-    关于: /about/
-    产品: /my-projects/
+    即刻: https://okjk.co/yP6GmD
     RSS: /atom.xml
-    #Resume: /path/to/your/resume.pdf 关于相对路径的设置。
 
 # footer
 footer:
   copyright_info:
     enable: true
-    author: ©阿犇
+    author: 阿犇
 
   powered_by: # Powered by Hexo & Frame
     enable: true
@@ -63,15 +62,15 @@ valine: # valine setup guide: https://valine.js.org/quickstart.html
   enable: false
   appId: # Your valine app Id
   appKey: # Your valine app Key
-  lang: "zh-CN"
+  lang: "en"
   placeholder: "Say something"
   avatar: "mp"
   meta: ["nick", "mail"]
 
 disqus: # disqus setup guide: https://help.disqus.com/en/articles/1717056-publisher-quick-start-guide
-  enable: true
-  disqus_url: https-weber36-me # your diqsuq url or shortname
-  language: "zh-CN"
+  enable: false
+  disqus_url: # your diqsuq url or shortname
+  language: "en"
 
 # local search
 local_search:
