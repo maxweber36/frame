@@ -34,8 +34,10 @@ profile:
   image: /images/profile_cover.jpg
 
   links:
+    博客: /archives/
     即刻: https://okjk.co/yP6GmD
     RSS: /atom.xml
+    邮箱: mailto:616560393@qq.com
 
 # footer
 footer:
