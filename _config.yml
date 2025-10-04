@@ -11,8 +11,8 @@ logo_image:
 menu:
   主页: /
   我的博客: /archives/
+  我都做了啥: /categories/project/
   关于我: /about/
-  我都做了啥: /my-projects/
 
 # stylesheets loaded in the <head>
 stylesheets:
