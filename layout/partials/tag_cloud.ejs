@@ -1,11 +1,14 @@
 <div class="tag-cloud">
   <div class="tag-list">
-    <%site.tags.forEach(tag=>{%>
+    <%
+      // 按文章数量降序排序
+      var sortedTags = site.tags.toArray().sort((a, b) => b.length - a.length);
+      sortedTags.forEach(tag=>{%>
       <span class="post-tag">
         <a href="<%-url_for(tag.path)%>">
-          <%=tag.name%>
+          <%=tag.name%>(<%=tag.length%>)
         </a>
-      </span> 
-    <%})%> 
+      </span>
+    <%})%>
   </div>
 </div>
